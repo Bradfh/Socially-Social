@@ -1,10 +1,25 @@
 {
+  "name": "socially-social",
+  "version": "1.0.0",
+  "description": "A NoSQL API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"No tests available\" && exit 0"
+  },
+  "keywords": [
+    "social",
+    "api",
+    "nosql"
+  ],
+  "author": "Brad",
+  "license": "MIT",
   "dependencies": {
     "dotenv": "^16.1.3",
-    "express": "^4.18.2",
-    "mongoose": "^7.2.2"
+    "express": "^4.17.1",
+    "mongoose": "^6.0.12"
   },
   "devDependencies": {
-    "nodemon": "^2.0.22"
+    "nodemon": "^2.0.14"
   }
 }
